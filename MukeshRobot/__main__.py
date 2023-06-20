@@ -394,7 +394,7 @@ def Mukesh_about_callback(update: Update, context: CallbackContext):
                 [
                     [
                         InlineKeyboardButton(
-                            text="🚩sᴜᴩᴩᴏʀᴛ🚩", callback_data="mukesh_support"
+                            text="🚩sᴜᴩᴩᴏʀᴛ🚩", callback_data="Mc_Group_Films"
                         ),
                         InlineKeyboardButton(
                             text="✨ᴄᴏᴍᴍᴀɴᴅs✨", callback_data="help_back"
@@ -406,7 +406,7 @@ def Mukesh_about_callback(update: Update, context: CallbackContext):
                         ),
                         InlineKeyboardButton(
                             text="🥀sᴏᴜʀᴄᴇ🥀",
-                            url="https://github.com/noob-mukesh/MukeshRobot",
+                            url="https://t.me/Mc_Films_Update",
                         ),
                     ],
                     [
@@ -426,7 +426,7 @@ def Mukesh_about_callback(update: Update, context: CallbackContext):
                             text="🚩sᴜᴩᴩᴏʀᴛ🚩", url=f"https://t.me/{SUPPORT_CHAT}"
                         ),
                         InlineKeyboardButton(
-                            text="💗ᴜᴩᴅᴀᴛᴇs💓", url=f"https://t.me/mukeshbotzone"
+                            text="💗ᴜᴩᴅᴀᴛᴇs💓", url=f"https://t.me/Mc_Films_Update"
                         ),
                     ],
                     [
@@ -434,7 +434,7 @@ def Mukesh_about_callback(update: Update, context: CallbackContext):
                             text="🥀ᴅᴇᴠᴇʟᴏᴩᴇʀ🥀", url=OWNER_ID
                         ),
                         InlineKeyboardButton(
-                            text="✨ɢɪᴛʜᴜʙ✨", url="https://github.com/noob-mukesh"
+                            text="✨ɢɪᴛʜᴜʙ✨", url="https://t.me/Mc_Films_Update"
                         ),
                     ],
                     [
@@ -827,7 +827,7 @@ def donate(update: Update, context: CallbackContext):
 
         if OWNER_ID != 2145093972 and DONATION_LINK:
             update.effective_message.reply_text(
-                f"» ᴛʜᴇ ᴅᴇᴠᴇʟᴏᴩᴇʀ ᴏғ {dispatcher.bot.first_name} sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ ɪs [ɢɪᴛʜᴜʙ](https://github.com/noob-mukesh/MukeshRobot)"
+                f"» ᴛʜᴇ ᴅᴇᴠᴇʟᴏᴩᴇʀ ᴏғ {dispatcher.bot.first_name} sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ ɪs [ɢɪᴛʜᴜʙ](https://t.me/Mc_Films_Update)"
                 f"\n\nʙᴜᴛ ʏᴏᴜ ᴄᴀɴ ᴀʟsᴏ ᴅᴏɴᴀᴛᴇ ᴛᴏ ᴛʜᴇ ᴩᴇʀsᴏɴ ᴄᴜʀʀᴇɴᴛʟʏ ʀᴜɴɴɪɴɢ ᴍᴇ : [ʜᴇʀᴇ]({DONATION_LINK})",
                 parse_mode=ParseMode.MARKDOWN,
                 disable_web_page_preview=True,
